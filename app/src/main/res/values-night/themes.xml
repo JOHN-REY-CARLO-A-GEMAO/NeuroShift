@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NeuroShift" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF6C63FF</item>
+        <item name="colorPrimaryVariant">#FF3D35CC</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#FF00FFCC</item>
+        <item name="android:windowBackground">#FF050A1A</item>
+        <item name="android:statusBarColor">#FF050A1A</item>
+        <item name="android:navigationBarColor">#FF050A1A</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#FF050A1A</color>
+    <color name="accent_cyan">#FF00FFCC</color>
+    <color name="accent_purple">#FF6C63FF</color>
+    <color name="accent_red">#FFFF3366</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
