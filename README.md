@@ -52,8 +52,10 @@ versions live in `neuroshift flutter/android/`, and nothing is shared.
 
 - Package `neuroshift_flutter`, org `com.neuroshift`
 - Platforms: android, ios, web, linux, macos, windows
-- `lib/main.dart` currently holds the default Flutter template app (counter
-  demo) — the NeuroShift UI lives here.
+- Full game implemented: gravity-rotation survival, obstacles, particles,
+  levels, score, local leaderboard (SharedPreferences). The simulation lives
+  in `lib/game/` (pure Dart), rendering in `lib/game/game_painter.dart`, and
+  the screens in `lib/screens/`.
 
 Develop:
 
