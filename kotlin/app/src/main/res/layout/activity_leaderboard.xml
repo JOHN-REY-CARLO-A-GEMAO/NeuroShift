@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF050A1A"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEADERBOARD"
+        android:textColor="#FF00FFCC"
+        android:textSize="34sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="32dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/scoreList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:text="← BACK"
+        android:fontFamily="monospace"
+        android:backgroundTint="#FF6C63FF"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
